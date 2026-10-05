@@ -1,0 +1,21 @@
+{
+  "name": "restaurant-etl-assessment",
+  "version": "1.0.0",
+  "description": "RBC technical assessment solution - API processing, incremental loading and scalable FIFO restaurant queues",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
